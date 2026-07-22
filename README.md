@@ -12,6 +12,35 @@ GroqCloud api is used as a fallback!
 Two datasets used: fashionmnist and indofashion dataset from kaggle. 
 
 
+# Images 
+
+<img width="424" height="556" alt="image" src="https://github.com/user-attachments/assets/2373c07c-a4b5-464e-b280-ba5bbdc6dcda" />
+<img width="424" height="556" alt="image" src="https://github.com/user-attachments/assets/8532819e-f093-45a9-8dbb-a36580805f90" />
+<img width="424" height="556" alt="image" src="https://github.com/user-attachments/assets/679189d5-f835-438f-a207-7710ee94c429" />
+<img width="424" height="556" alt="image" src="https://github.com/user-attachments/assets/76bb0a9d-8ab7-4cfc-a318-d4c0147004f8" />
+
+# References I used to come up with the idea 
+References
+[1] A. K. Kushwaha, S. Singh, and B. Raman, “IndoFashion: A Fine-Grained Fashion Dataset for Categorizing
+Indian Apparel,”arXiv preprint arXiv:2004.09954, Apr. 2020.
+[2] H. Xiao, K. Rasul, and R. Vollgraf, “Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine
+Learning Algorithms,” arXiv preprint arXiv:1708.07747, Aug. 2017.
+[3] Z. Cheng, W. Song, Y. Wang, and B. Wu,“IDM-VTON: Implicit Diffusion Models for Virtual Try-On,”arXiv
+preprint arXiv:2303.16828, Mar. 2023.
+[4] S. Han, H. Lee, and S. Choi,“Virtual Try-On: A Comprehensive Survey,”ACM Comput. Surv., vol. 55, no. 14,
+pp. 1–39, Dec. 2022.
+[5] W. Kang, J. Lee, and D. Kim,“FashionKGB: A Knowledge Graph Benchmark for Fashion
+Recommendation,”
+in Proc. ACM SIGKDD Workshop, 2021, pp. 1–8.
+[6] Y. Zhao, Q. Xie, Y. Li, and L. Nie, “FashionKG: A Large-scale Knowledge Graph for Fashion
+Recommendation,” IEEE Trans. Multimedia, vol. 24, pp. 3081–3093, 2022.
+[7] A. Veit, S. Belongie, and T. Kovacs, “Learning Visual Clothing Style with Similarity Metrics,” in Proc. IEEE
+Conf. Comput. Vis. Pattern Recognit. (CVPR), 2015, pp. 5410–5419.
+[8] R. Lin, S. Wang, and X. He,“OutfitNet: Fashion Outfit Recommendation Using Attention Networks,” in Proc.
+Eur. Conf. Comput. Vis. (ECCV) Workshops, 2020, pp. 1–11.
+
+
+
 # 👗 FitFind – AI Fashion Recommendation & Styling Assistant
 
 FitFind is a multimodal AI-powered fashion assistant that combines **Natural Language Processing, Computer Vision, and Knowledge Graph reasoning** to deliver personalized, explainable outfit recommendations for both Indian and Western fashion. It features a React frontend with a FastAPI backend for a seamless user experience
