@@ -9,15 +9,27 @@ I also used an open-source vton model for it to try on clothes.
 FitFind combines Natural Language Processing, Computer Vision, and Knowledge Graph reasoning to generate personalized fashion recommendations. BERT was chosen to understand the semantic meaning of user queries and extract fashion-related entities such as clothing type, color, and occasion. MobileNetV2 was used for efficient visual feature extraction, enabling similarity-based image search through embedding comparison. A NetworkX-based Knowledge Graph models relationships between garments, colors, fabrics, seasons, and occasions, allowing the system to produce explainable, context-aware recommendations instead of relying solely on similarity scores. When the Knowledge Graph cannot confidently answer a query, the system falls back to Groq's Qwen3 LLM to provide conversational styling advice.
 GroqCloud api is used as a fallback!
 
+# Problems I've faced 
+1. Switching between encoders
+2. Getting my teammates to stop giving the **Mbappe Special** to the coding contributions
+3. Juggling through api endpoints
+4. API key failures ( too many to count)
+
+# Improvements:
+Honest opinion-> the machine learning parts are good; there needs to be better UI, it could be developed more. The project is more adaptable breadth-wise. Individual VTON could be implemented. 
+
 Two datasets used: fashionmnist and indofashion dataset from kaggle. 
 
 
 # Images 
 
 <img width="424" height="556" alt="image" src="https://github.com/user-attachments/assets/2373c07c-a4b5-464e-b280-ba5bbdc6dcda" />
-<img width="424" height="556" alt="image" src="https://github.com/user-attachments/assets/8532819e-f093-45a9-8dbb-a36580805f90" />
-<img width="424" height="556" alt="image" src="https://github.com/user-attachments/assets/679189d5-f835-438f-a207-7710ee94c429" />
-<img width="424" height="556" alt="image" src="https://github.com/user-attachments/assets/76bb0a9d-8ab7-4cfc-a318-d4c0147004f8" />
+<img width="1600" height="703" alt="image" src="https://github.com/user-attachments/assets/b2f980ac-97df-4ae6-adb1-cac5c6d42db1" />
+<img width="1600" height="690" alt="image" src="https://github.com/user-attachments/assets/9adc8ba4-6ae3-452d-b865-85c16ce70020" />
+<img width="424" height="433" alt="image" src="https://github.com/user-attachments/assets/c275833a-6a5f-487e-ab01-a56a7ca574cf" />
+
+
+
 
 # References I used to come up with the idea 
 References
