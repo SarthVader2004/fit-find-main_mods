@@ -1,0 +1,91 @@
+/* Background video stays fixed */
+.bg-video {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}
+
+.nav-logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.nav-links a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #00e6b8;
+}
+
+/* Home Page */
+.home-container {
+  text-align: center;
+  color: #fff;
+  margin-top: 30vh;
+}
+
+.typing-text {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.home-subtext {
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+/* Body Type */
+.bodytype-container {
+  color: #fff;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+.input-group {
+  margin-top: 1rem;
+}
+
+.input-group input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  margin: 6px;
+}
+
+button {
+  margin-top: 12px;
+  background: linear-gradient(90deg, #00e6b8, #4ef2c8);
+  color: #022a23;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

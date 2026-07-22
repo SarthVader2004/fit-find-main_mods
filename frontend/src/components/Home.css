@@ -1,0 +1,87 @@
+/* Full-screen container */
+.landing-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 🎥 Background Video */
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+/* 🌟 Main Text Overlay */
+.center-wrap {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #222;
+  text-align: center;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 2.5rem;
+}
+
+/* Buttons */
+.hero-ctas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; /* 👈 adds space between buttons */
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  padding: 0.9rem 2rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn.primary {
+  background-color: #ff6b9a;
+  color: white;
+  border: none;
+}
+
+.btn.primary:hover {
+  background-color: #ff5185;
+}
+
+.btn.ghost {
+  background: none;
+  border: 2px solid #6c63ff;
+  color: #6c63ff;
+}
+
+.btn.ghost:hover {
+  background: #6c63ff;
+  color: white;
+}

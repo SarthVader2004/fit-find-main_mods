@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitFind AI Fashion Assistant</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body class="page-fade-in">
+    <!-- 🎥 Background video .. remove this page   -->
+    <video id="landingVideo" class="bg-video" autoplay muted loop playsinline preload="auto">
+      <source src="/videos/bg1.mp4" type="video/mp4" />
+    </video>
+
+    <!-- 🌟 Main content -->
+    <main class="center-wrap">
+      <header class="brand-wrap">
+        <div class="brand">👗 FitFind</div>
+      </header>
+
+      <section class="hero">
+        <h1 id="title" class="title montserrat" aria-label="Your AI Fashion Assistant"></h1>
+        <span id="cursor" class="typing-cursor" aria-hidden="true"></span>
+        <p id="subtitle" class="subtitle poppins" aria-hidden="true">
+          Chat with your AI stylist for outfit ideas and cultural fashion insights.
+        </p>
+
+        <div class="hero-ctas">
+          <button id="btn-getstarted" class="btn primary">💬 Start Chatting</button>
+          <a href="#" id="btn-learnmore" class="btn ghost">Learn More</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- React App Mount Point -->
+    <div id="root" style="display: none"></div>
+
+    <!-- Landing Animation Script -->
+    <script type="module" src="/script.js"></script>
+
+    <!-- React Entry -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
